@@ -1,0 +1,234 @@
+body {
+    background-color: rgb(233, 245, 235);
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: center;
+}
+
+/* Cambios en los botones */
+.btn-primary {
+    background-color: #198754;
+    border-color: #198754;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #146c43;
+    border-color: #146c43;
+}
+
+.btn-primary:active {
+    background-color: #0d4c2c;
+    border-color: #0d4c2c;
+}
+
+/* Cambios en las cards */
+.card {
+    border: none;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Cambios en los modales */
+.modal-content {
+    background-color: rgb(233, 245, 235);
+}
+
+.modal-header {
+    background-color: #198754;
+    color: white;
+    border-bottom: none;
+}
+
+
+/* Cambios en el pie de página */
+footer {
+    background-color: rgb(233, 245, 235);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+}
+
+/* Cambios en el mensaje de bienvenida */
+.welcome-message {
+    background-image: url('empleo3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    color: #000000;
+    text-shadow: 2px 2px 4px #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-content {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #198754;
+}
+
+.welcome-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #198754;
+}
+
+.welcome-content .btn-primary {
+    font-size: 24px;
+    border-radius: 30px;
+    padding: 12px 30px;
+    background-color: #198754;
+    border-color: #198754;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.welcome-content .btn-primary:hover, .welcome-content .btn-primary:focus {
+    background-color: #146c43;
+    border-color: #146c43;
+}
+
+.welcome-content .btn-primary:active {
+    background-color: #0d4c2c;
+    border-color: #0d4c2c;
+}
+
+/* Cambios en los enlaces de redes sociales */
+.list-unstyled a.link-dark {
+    color: white;
+}
+
+.list-unstyled a.link-dark:hover, .list-unstyled a.link-dark:focus {
+    color: #146c43;
+}
+
+/* Añadir margen a los párrafos */
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Cambios en los colores de los iconos */
+.bi {
+    fill: white;
+}
+
+/* Cambios en los colores de los inputs en el formulario */
+.form-control {
+    border-color: #198754;
+}
+
+/* Cambios en los colores de los botones en el formulario */
+.form-control[type="submit"] {
+    background-color: #198754;
+    border-color: #198754;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.form-control[type="submit"]:hover, .form-control[type="submit"]:focus {
+    background-color: #146c43;
+    border-color: #146c43;
+}
+
+.form-control[type="submit"]:active {
+    background-color: #0d4c2c;
+    border-color: #0d4c2c;
+}
+
+
+/* Cambios en la imagen de la card */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1320px;
+    text-align: center;
+}
+
+.py-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.border-top {
+    border-top: var(--bs-border-width) solid #dee2e6;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.aspect-ratio-box {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+
+.aspect-ratio-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Cambios en la posición del contenido en la card */
+.card-body.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body.text-center h5 {
+    margin-top: 20px;
+}
+
+.card-body.text-center p {
+    margin-top: 10px;
+    flex-grow: 1;
+}
